@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(https://pic1.zhimg.com/v2-7c7c1d014f5b7821472f0720ad59ada1_r.jpg?source=1940ef5c);" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.buaa.service.LoginController">
+    <children>
+        <Button fx:id="LoginButton" onAction="#login" contentDisplay="CENTER" layoutX="231.0" layoutY="279.0" mnemonicParsing="false" text="Login" textFill="#0b72c1" />
+        <Button fx:id="RegisterButton" onAction="#register" layoutX="380.0" layoutY="279.0" mnemonicParsing="false" text="Register" textFill="#0b72c1" />
+        <Label alignment="CENTER" layoutX="261.0" layoutY="24.0" prefHeight="81.0" prefWidth="119.0" text="online chat" textFill="WHITE">
+            <font>
+                <Font size="27.0" />
+            </font></Label>
+        <TextField fx:id="UserID" layoutX="249.0" layoutY="134.0" prefHeight="30.0" prefWidth="225.0" promptText="Please enter your userID" />
+        <Text fill="WHITE" layoutX="172.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="账号" wrappingWidth="61.0" />
+        <Text fill="WHITE" layoutX="172.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="密码" />
+        <TextField fx:id="Password" layoutX="249.0" layoutY="200.0" prefHeight="30.0" prefWidth="225.0" promptText="Please enter your password" />
+    </children>
+</AnchorPane>

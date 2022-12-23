@@ -44,3 +44,206 @@
 2022-12-06 02:27:11,353 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction [JdbcTransaction.java : 97] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6069db50]
 2022-12-06 02:27:11,354 [main] DEBUG o.a.i.d.pooled.PooledDataSource [PooledDataSource.java : 402] - Returned connection 1617550160 to pool.
 2022-12-06 02:27:51,477 [main] INFO  com.buaa.service.loginController [loginController.java : 23] - hello world
+2022-12-23 22:10:06,081 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 71] - welcome, null
+2022-12-23 22:15:27,022 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 71] - welcome, null
+2022-12-23 22:17:18,338 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:21:14,954 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:21:46,825 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:22:19,786 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:23:10,713 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:24:53,922 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:27:44,023 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:28:10,416 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:29:15,590 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:29:41,859 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:30:16,724 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:31:07,494 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 83] - user not existed
+2022-12-23 22:32:29,109 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 69] - null null
+2022-12-23 22:32:29,422 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 84] - user not existed
+2022-12-23 22:33:08,289 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 70] - null null
+2022-12-23 22:33:08,509 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 84] - user not existed
+2022-12-23 22:35:00,506 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 72] - 20374319 123
+2022-12-23 22:35:00,730 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:37:21,435 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:39:42,351 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 74] - welcome, 20374319
+2022-12-23 22:41:28,098 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:43:47,301 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:45:02,517 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:46:25,862 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 74] - welcome, 20374319
+2022-12-23 22:52:17,323 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:52:49,284 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:56:14,840 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 22:58:55,514 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:00:40,735 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:00:43,961 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:00:47,088 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:00:59,619 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:02:08,017 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:02:11,239 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:02:12,646 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:02:13,427 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:02:13,621 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:03:09,905 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:03:12,668 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:03:13,664 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:03:13,830 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:03:16,378 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:06:56,003 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:08:56,378 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 86] - user not existed
+2022-12-23 23:09:36,750 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 74] - welcome, 20374319
+2022-12-23 23:14:00,175 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 74] - welcome, 20374319
+2022-12-23 23:14:35,096 [JavaFX Application Thread] INFO  com.buaa.service.loginController [loginController.java : 74] - welcome, 20374319
+2022-12-24 03:00:28,329 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 54] - waiting for you for a long time, null
+2022-12-24 03:01:24,322 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 54] - waiting for you for a long time, null
+2022-12-24 03:05:40,978 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 61] - userID 20374319 has existed!
+2022-12-24 03:06:13,309 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 57] - waiting for you for a long time, 蒋康的小号
+2022-12-24 03:10:00,976 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 57] - waiting for you for a long time, 蒋康的小号
+2022-12-24 03:10:26,630 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 57] - waiting for you for a long time, 蒋康的小号
+2022-12-24 03:13:30,059 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 57] - waiting for you for a long time, 123
+2022-12-24 03:14:07,665 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 61] - userID 123 has existed!
+2022-12-24 03:17:16,188 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 63] - waiting for you for a long time, 222
+2022-12-24 03:17:25,043 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 78] - userID 222 has existed!
+2022-12-24 03:18:13,175 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 63] - waiting for you for a long time, 
+2022-12-24 03:18:22,655 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 67] - userID  has existed!
+2022-12-24 03:19:03,252 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 67] - userID  has existed!
+2022-12-24 03:22:34,820 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 74] - welcome,  
+2022-12-24 04:46:39,095 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 04:47:06,371 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 04:48:21,960 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 04:48:48,933 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 04:48:51,185 [Thread-4] ERROR com.buaa.util.Listener [Listener.java : 50] - Could not Connect
+2022-12-24 04:57:42,140 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 04:57:42,385 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 04:57:42,393 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:06:38,202 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 63] - waiting for you for a long time, 333
+2022-12-24 05:06:50,100 [JavaFX Application Thread] INFO  com.buaa.service.RegisterController [RegisterController.java : 67] - userID 333 has existed!
+2022-12-24 05:08:28,926 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 333 333
+2022-12-24 05:08:29,145 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:08:29,153 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:13:26,425 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:13:26,661 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:13:26,669 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:17:29,423 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:18:25,206 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:20:19,098 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:20:46,173 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:20:46,343 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:20:46,350 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:20:46,354 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:20:46,355 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:22:07,442 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:22:07,726 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:22:07,735 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:22:07,768 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:22:07,769 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:23:47,051 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:23:47,240 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:23:47,248 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:23:47,252 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:23:47,253 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:27:04,906 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:27:05,077 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:27:05,084 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:27:05,087 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:27:05,088 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:27:26,546 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:27:26,760 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:27:26,770 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:27:26,777 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:27:26,778 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:33:38,578 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:33:38,873 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:33:38,879 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:33:38,907 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:33:38,907 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:34:16,249 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:34:16,495 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:34:16,503 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:34:16,508 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:34:16,509 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:34:25,807 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 333 333
+2022-12-24 05:34:26,030 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:34:26,038 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:34:26,041 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:34:26,041 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:34:26,043 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:34:26,044 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:35:02,027 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:35:02,027 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:36:50,216 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:36:50,462 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:36:50,469 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:36:50,493 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:36:50,493 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:37:07,991 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 333 333
+2022-12-24 05:37:08,171 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:37:08,181 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:37:08,184 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:37:08,185 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:37:08,187 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:37:08,187 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:37:19,535 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:37:19,536 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:42:15,323 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:42:15,515 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:42:15,523 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:42:15,527 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 05:42:15,527 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 05:49:42,338 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:49:42,570 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:49:42,578 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:51:04,264 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:51:04,530 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:51:04,537 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:51:53,363 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:51:53,562 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:51:53,570 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 05:52:40,666 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 05:52:40,888 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 05:52:40,897 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:02:48,815 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:02:49,051 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:02:49,060 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:04:33,601 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:04:33,803 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:04:33,812 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:08:04,601 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:08:04,767 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:08:04,774 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:09:23,512 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:09:23,708 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:09:23,716 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:10:20,711 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:10:20,895 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:10:20,902 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:13:20,496 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:13:20,676 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:13:20,682 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:18:38,930 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:18:39,110 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:18:39,117 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:25:39,726 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:25:40,057 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:25:40,065 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:28:34,241 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:28:34,421 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:28:34,428 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:28:54,880 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:28:55,148 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:28:55,155 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:28:55,193 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 06:28:55,194 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 06:30:24,987 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 123 123
+2022-12-24 06:30:25,195 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:30:25,203 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:30:25,211 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 06:30:25,212 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 06:30:48,152 [JavaFX Application Thread] INFO  com.buaa.service.LoginController [LoginController.java : 89] - welcome, 333 333
+2022-12-24 06:30:48,367 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 52] - Connection accepted localhost/127.0.0.1:9002
+2022-12-24 06:30:48,375 [Thread-4] INFO  com.buaa.util.Listener [Listener.java : 56] - Sockets in and out ready!
+2022-12-24 06:30:48,388 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 06:30:48,389 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 06:30:48,392 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 06:30:48,392 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit
+2022-12-24 06:31:01,278 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 186] - setUserList() method Enter
+2022-12-24 06:31:01,279 [Thread-4] INFO  com.buaa.service.ChatController [ChatController.java : 193] - setUserList() method Exit

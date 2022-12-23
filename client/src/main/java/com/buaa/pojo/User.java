@@ -8,20 +8,33 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Serializable;
 
-public class User {
+public class User implements Serializable {
+    private static final long serialVersionUID=7981560250804078637l;
     private int id;
+    private String userID;
     private String name;
     private String password;
+    private String picture;
+    private Status status;
 
-    public User(int id, String name, String password) {
+
+    public User(int id, String name, String password,String userID) {
         this.id = id;
         this.name = name;
         this.password = password;
+        this.userID=userID;
     }
 
-    public User(String name,String password){
+    public User(String name,String password,String userID){
         this.name=name;
+        this.password=password;
+        this.userID=userID;
+    }
+
+    public User(String userID,String password){
+        this.userID=userID;
         this.password=password;
     }
 
@@ -34,6 +47,13 @@ public class User {
 
     public void setId(int id) {
         this.id = id;
+    }
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
     }
 
     public String getName() {
@@ -52,25 +72,70 @@ public class User {
         this.password = password;
     }
 
-    public boolean isUserNameExisted() throws IOException {
-        InputStream inputStream = Resources.getResourceAsStream("mybatis.xml");
-        SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
-        SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(inputStream);
-        SqlSession sqlSession = sqlSessionFactory.openSession();
-        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-        User result = userMapper.findUserByName(this.name);
-        sqlSession.close();
-        return result!=null;
+
+    public String getPicture() {
+        return picture;
     }
 
-    public boolean isUserNameAndPasswordExisted() throws IOException{
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+
+
+
+    public boolean isUserIDExisted() throws  IOException{
         InputStream inputStream = Resources.getResourceAsStream("mybatis.xml");
         SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
         SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-        User result = userMapper.findUserByNameAndPassword(this.name,this.password);
-        sqlSession.close();
-        return result!=null;
+        try{
+            User result = userMapper.findUserByUserID(this.userID);
+            this.name= result.name;
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            sqlSession.close();
+        }
+    }
+
+    public boolean isUserIDAndPasswordExisted() throws IOException{
+        InputStream inputStream = Resources.getResourceAsStream("mybatis.xml");
+        SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
+        SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(inputStream);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        try {
+            User result = userMapper.findUserByUserIDAndPassword(new User(userID,password));
+            this.name=result.name;
+            return true;
+        }catch (Exception e){
+            return false;
+        }finally {
+            sqlSession.close();
+        }
+    }
+
+    public void register() throws IOException{
+        InputStream inputStream = Resources.getResourceAsStream("mybatis.xml");
+        SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
+        SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(inputStream);
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        try{
+            userMapper.addUser(this);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }

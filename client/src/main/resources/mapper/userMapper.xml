@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.buaa.mapper.UserMapper">
     <select id="findAll" resultType="com.buaa.pojo.User">
-        select * from user
+        select * from project.user
     </select>
     <select id="findUserByID" resultType="com.buaa.pojo.User">
         select * from user where id = #{id}
@@ -12,10 +12,13 @@
     <select id="findUserByName" resultType="com.buaa.pojo.User">
         select * from user where name = #{name}
     </select>
-    <select id="findUserByNameAndPassword" resultType="com.buaa.pojo.User">
-        select * from user where name = #{name} and password = #{password}
+    <select id="findUserByUserIDAndPassword" resultType="com.buaa.pojo.User">
+        select * from user where userID = #{userID} AND password = #{password}
+    </select>
+    <select id="findUserByUserID" resultType="com.buaa.pojo.User">
+        select * from user where userID = #{userID}
     </select>
     <insert id="addUser" parameterType="com.buaa.pojo.User">
-        insert into user (name,password) values (#{name},#{password})
+        insert into user (userID,name,password) values (#{userID},#{name},#{password})
     </insert>
 </mapper>

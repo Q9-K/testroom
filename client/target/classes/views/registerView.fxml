@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(https://tse3-mm.cn.bing.net/th/id/OIP-C.__9d3HSjIU8NbxkX0dEqgQHaEK?pid=ImgDet&amp;rs=1);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.buaa.service.RegisterController">
+    <children>
+        <TextField fx:id="UserName" layoutX="199.0" layoutY="56.0" promptText="昵称" style="-fx-background-color: #F5F5F5;"/>
+        <TextField fx:id="Password" layoutX="199.0" layoutY="128.0" promptText="密码" style="-fx-background-color: #F5F5F5;" />
+        <TextField fx:id="UserID" layoutX="199.0" layoutY="200.0" promptText="学工号" style="-fx-background-color: #F5F5F5;" />
+        <Button fx:id="registerButton" layoutX="266.0" layoutY="279.0" mnemonicParsing="false" style="-fx-background-color: #359eff;" text="立即注册" onAction="#register"/>
+<!--        <RadioButton layoutX="199.0" layoutY="244.0" mnemonicParsing="false" text="我已阅读并同意服务协议" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="199.0" AnchorPane.rightAnchor="199.0" AnchorPane.topAnchor="244.0" />-->
+    </children>
+</AnchorPane>
